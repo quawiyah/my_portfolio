@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react";
-import { Mail, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Send, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -38,23 +38,23 @@ const Contact = () => {
               </p>
 
               <div className="space-y-4">
-                <a href="mailto:hello@example.com" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors">
+                <a href="mailto:olajomi21@gmail.com" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors">
                   <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
                     <Mail size={18} className="text-accent-foreground" />
                   </div>
-                  <span>hello@example.com</span>
+                  <span>olajomi21@gmail.com</span>
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors">
+                <a href="https://github.com/quawiyah" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors">
                   <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
                     <Github size={18} className="text-accent-foreground" />
                   </div>
-                  <span>github.com/yourusername</span>
+                  <span>github.com/quawiyah</span>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/dairo-quawiyah" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-foreground hover:text-primary transition-colors">
                   <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
                     <Linkedin size={18} className="text-accent-foreground" />
                   </div>
-                  <span>linkedin.com/in/yourusername</span>
+                  <span>linkedin.com/in/dairo-quawiyah</span>
                 </a>
               </div>
             </div>

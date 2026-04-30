@@ -33,7 +33,7 @@ const Hero = () => {
           transition={{ delay: 0.3 }}
           className="text-5xl sm:text-6xl md:text-7xl font-bold font-heading mb-4 text-foreground"
         >
-          Your Full Name
+          Dairo Quawiyah Olayinka
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ const Hero = () => {
           transition={{ delay: 0.4 }}
           className="text-2xl sm:text-3xl font-heading text-primary mb-6"
         >
-          Frontend Developer
+          FullStack Web Developer
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

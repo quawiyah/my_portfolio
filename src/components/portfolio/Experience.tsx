@@ -3,19 +3,9 @@ import ScrollReveal from "./ScrollReveal";
 
 const experiences = [
   {
-    role: "Frontend Developer",
-    company: "Tech Company",
-    duration: "2023 – Present",
-    responsibilities: [
-      "Developed responsive UI components with React and Tailwind CSS",
-      "Collaborated with designers to implement pixel-perfect interfaces",
-      "Optimized application performance and load times",
-    ],
-  },
-  {
-    role: "Freelance Web Developer",
-    company: "Self-Employed",
-    duration: "2022 – 2023",
+    role: "Frontend Developer Intern",
+    company: "Codveda Technologies",
+    duration: "FEBUARY 2026 – MARCH 2026",
     responsibilities: [
       "Built custom websites for small businesses and startups",
       "Delivered projects on time with clean, maintainable code",
@@ -23,9 +13,29 @@ const experiences = [
     ],
   },
   {
-    role: "Junior Developer",
-    company: "Digital Agency",
-    duration: "2021 – 2022",
+    role: "Frontend Developer Intern",
+    company: "Automotion Technologies Limited",
+    duration: "NOVEMBER 2025 - DECEMBER 2025",
+    responsibilities: [
+      "Developed responsive UI components with React and Tailwind CSS",
+      "Collaborated with designers to implement pixel-perfect interfaces",
+      "Optimized application performance and load times",
+    ],
+  },
+  {
+    role: "FullStack Developer Intern",
+    company: "Alusoft Technologies Limited",
+    duration: "APRIL 2025 – OCTOBER 2025",
+    responsibilities: [
+      "Assisted in building full-stack web applications",
+      "Implemented REST APIs with Node.js and Express",
+      "Participated in code reviews and agile sprints",
+    ],
+  },
+  {
+    role: "Frontend Developer Intern",
+    company: "HNG",
+    duration: "FEBUARY 2025 – MARCH 2025",
     responsibilities: [
       "Assisted in building full-stack web applications",
       "Implemented REST APIs with Node.js and Express",

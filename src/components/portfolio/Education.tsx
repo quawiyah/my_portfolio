@@ -4,18 +4,13 @@ import ScrollReveal from "./ScrollReveal";
 const education = [
   {
     degree: "Bachelor of Science in Computer Science",
-    institution: "University of Technology",
-    year: "2018 – 2022",
+    institution: "Fountain University",
+    year: "2022 – 2026",
   },
   {
     degree: "Full-Stack Web Development Certification",
-    institution: "Online Academy",
-    year: "2022",
-  },
-  {
-    degree: "React & Advanced JavaScript",
-    institution: "Udemy / Coursera",
-    year: "2023",
+    institution: "Alusoft Technologies",
+    year: "2025",
   },
 ];
 

@@ -24,14 +24,14 @@ const About = () => (
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <ScrollReveal>
           <div className="glass-card flex items-center justify-center aspect-square max-w-sm mx-auto md:mx-0">
-            <User className="w-32 h-32 text-muted-foreground/30" />
+            <img src="/mypicture2.jpg" alt="Dairo Quawiyah" className="w-full h-full object-cover rounded-2xl"/>
           </div>
         </ScrollReveal>
 
         <div>
           <ScrollReveal delay={0.1}>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I'm a passionate Frontend Developer with a strong focus on building
+              I'm a passionate FullStack Web Developer with a strong focus on building
               responsive, accessible, and performant web applications. With
               experience across modern frontend and backend technologies, I bring
               ideas to life through clean code and thoughtful design.
