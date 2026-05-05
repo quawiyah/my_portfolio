@@ -7,9 +7,9 @@ const skills = [
   { name: "CSS", level: 90 },
   { name: "Bootstrap", level: 85 },
   { name: "JavaScript", level: 90 },
-  { name: "React", level: 88 },
-  { name: "Node.js", level: 80 },
-  { name: "Express.js", level: 78 },
+  { name: "React", level: 80 },
+  { name: "Node.js", level: 50 },
+  { name: "Express.js", level: 50 },
 ];
 
 const About = () => (

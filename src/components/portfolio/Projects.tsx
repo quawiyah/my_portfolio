@@ -7,41 +7,45 @@ const projects = [
     title: "E-Commerce Platform",
     desc: "A full-featured online store with cart, checkout, and payment integration.",
     techs: ["React"],
+    word: "Yet to be deployed",
+    link: null
   },
   {
     title: "Event Management Website",
     desc: "A full-stack web application that allows users to create, manage, and book events with dynamic ticket generation and user authentication.",
     techs: ["HTML", "CSS", "Node.js", "Express", "MySQL"],
+    word: "Yet to be deployed",
+    link: null
   },
   {
     title: "Portfolio Website",
     desc: "A personal website showcasing my projects, skills, and experience with a responsive and user-friendly design.",
     techs: ["React"],
+    link: "https://quawiyah.github.io/my_portfolio/"
   },
   {
     title: "Landing Page",
     desc: "A visually appealing and responsive landing page designed to promote a product/service.",
     techs: ["HTML", "CSS"],
-  },
-  {
-    title: "Calculator",
-    desc: "A functional calculator app that performs basic arithmetic operations with real-time input handling and accurate computations.",
-    techs: ["JavaScript", "HTML", "CSS"],
+    link: "https://quawiyah.github.io/landing/"
   },
   {
     title: "To-do List",
     desc: "A task management application that enables users to add, update, and delete tasks, improving productivity and organization.",
     techs: ["JavaScript", "HTML", "CSS"],
+    link: "https://quawiyah.github.io/todo/"
   },
   {
     title: "Tip Calculator",
     desc: "A simple tool that calculates tips based on user input, helping users quickly determine total payment amounts.",
     techs: ["JavaScript", "HTML", "CSS"],
+    link: "https://quawiyah.github.io/project/"
   },
   {
     title: "Gadget Magazine",
     desc: "A modern blog-style website that displays tech and gadget-related articles.",
     techs: ["HTML", "CSS"],
+    link: "https://quawiyah.github.io/tech/"
   },
 ];
 
@@ -72,18 +76,16 @@ const Projects = () => (
                   </span>
                 ))}
               </div>
-              {/* <div className="flex gap-3">
-                <Button variant="outline" size="sm" asChild className="gap-1.5">
-                  <a href={p.github} target="_blank" rel="noopener noreferrer">
-                    <Github size={14} /> Code
-                  </a>
-                </Button>
-                <Button size="sm" asChild className="gap-1.5">
-                  <a href={p.live} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={14} /> Live Demo
-                  </a>
-                </Button>
-              </div> */}
+              <div className="flex gap-3 mt-auto">
+                {p.link && (
+                  <Button size="sm" asChild className="gap-1.5">
+                    <a href={p.link} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink size={14} /> View Project
+                    </a>
+                  </Button>
+                )}
+              </div>
+              <p className="text-muted-foreground text-sm mb-4 flex-1">{p.word}</p>
             </div>
           </ScrollReveal>
         ))}

@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={0.1}>
+          {/* <ScrollReveal delay={0.1}>
             <form onSubmit={handleSubmit} className="glass-card space-y-4">
               <Input
                 placeholder="Your Name"
@@ -86,7 +86,7 @@ const Contact = () => {
                 <Send size={16} /> Send Message
               </Button>
             </form>
-          </ScrollReveal>
+          </ScrollReveal> */}
         </div>
       </div>
     </section>
